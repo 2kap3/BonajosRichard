@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Bonajos - Personal Website</title>
+    <script src="scripts.js"></script>
+    <style>
+       
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            background-color: black; /* Set background color to black */
+            color: white; /* Set text color to white */
+            height: 100vh; /* Use the full height of the viewport */
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Add border-radius for a circular image */
+        }
+
+        header div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        header div a {
+            margin: 0 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            display: none; /* Hide all sections initially */
+        }
+
+        section img {
+            border-radius: 0; /* Remove border-radius for the PDF image */
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            margin-top: auto; /* Push the footer to the bottom of the page */
+            padding: 10px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #2c5ed3; 
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius:30px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #backButton {
+            display: none;
+            position: center;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #2c5ed3;
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius:30px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #scrollMessage {
+            display: none;
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        #scrollMessage p {
+            margin: 0; /* Remove default margin for better appearance */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HELLO AND WELCOME </h1>
+        <p>I'm Richard Bonajos, a positive and joyful person you've ever met. </p>
+
+        <img src="ha.jpg" alt="Your Name" style="width:200px">
+        
+        <!-- Social Media Logos below the "Your Name" image -->
+        <div>
+            <!-- Facebook link with logo -->
+            <a href="https://www.facebook.com/richard.bonajos.12" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/50px-Facebook_Logo_%282019%29.png" alt="Facebook Logo">
+            </a>
+            <!-- Instagram link with logo -->
+            <a href="https://www.instagram.com/burdagilll/" target="_blank">
+                <img src="ss.png" alt="Instagram Logo" width="50" height="50">
+
+                
+            </a>
+        </div>
+    </header>
+    
+
+    <section id="welcome" style="display: block;">
+        <h2>Warm Greetings!</h2>
+        <p>Better click that Button.</p>
+        <button onclick="showSections()">Explore</button>
+    </section>
+
+<section id="scrollMessage" style="display: none;">
+        <p>Scroll for more info about me:/</p>
+    </section>
+
+    <section id="about">
+        <!-- About Me section content goes here -->
+    </section>
+
+    
+    
+        
+        
+
+    <section id="resume">
+        <h2>Resume/CV</h2>
+        <p>WALA PA AKONG NARATING SA BUHAY!</p>
+        <img src="qq.png" alt="Your Resume Image" width="400" height="600">
+        
+        <!-- Download Resume (PDF) button below the resume image -->
+        <br> <!-- Add a line break -->
+        <a href="dd.pdf" download>
+            <button>Download Resume (PDF)</button>
+        </a>
+        <section id="Ohaha" style="display: block;">
+        <h2>About me</h2>
+        <p>I'm Richard Bonajos a Positive guy who likes playing with kids. And i'm a big
+            fan of Kap Luffy on the anime "One Fifty".</p>
+            <img src="kap.jpg" alt="Kap" width="200" height="200">
+        
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>I don't have any creative endeavors but I have some awards from the School.</p>
+       <img src="ten.jpg" alt="Kap" width="200" height="200">
+       <p>This one is from Men's Table tennis.</p>
+       <img src="ar.jpg" alt="Kap" width="200" height="200">
+       <p>And this one is from the Archery.</p>
+    </section>
+    <section id="Piti" style="display: block;">
+        <h2>Skills</h2>
+        
+            <img src="tenn.jpg" alt="Kap" width="200" height="200">
+            <p>Table Tennis.</p>
+        <img src="bas.jpg" alt="Kap" width="200" height="200">
+        <p> Basketball.</p>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog/Articles</h2>
+        <h2>Basketball</h2>
+        <p>
+
+        1. "Mastering the Art of Shooting: Tips for Precision and Consistency"
+        - Dive into the nuances of basketball shooting techniques, covering topics like proper form, hand placement, and mental focus during shots.</p>
+
+        <p>2. "The Journey from Amateur to Pro: Lessons from Successful Basketball Players"
+        - Explore the stories of professional basketball players who started their careers at the amateur level, highlighting the lessons and challenges they faced along the way.</p>
+
+        <p>3. "Strategic Play: Understanding Offensive and Defensive Tactics in Basketball"*
+        - Break down essential offensive and defensive strategies in basketball, discussing the importance of teamwork, communication, and adaptability on the court.</p>
+
+        <p>4. "Basketball and Personal Growth: Life Lessons from the Hardwood"
+        - Reflect on the personal development aspects of playing basketball, discussing how the sport can instill qualities such as discipline, resilience, and leadership in individuals.
+        </p>
+
+        <a href="https://www.grindbasketball.com/blogs/news/mastering-the-art-of-shooting-in-basketball-a-comprehensive-guide">
+        https://www.grindbasketball.com/blogs/news/mastering-the-art-of-shooting-in-basketball-a-comprehensive-guide</a>
+     
+    </section>
+
+    <section id="contact">
+          <div style="text-align: left; margin-left: 20px;">
+        <h2>Contact</h2>
+        <p>Get in touch with me:</p>
+        <img src="pon.png" alt="Phone Logo" width="20" height="20">
+        <span>+639-161-281-635</span>
+        <div>
+            <!-- Facebook link with logo -->
+            <p href="https://www.facebook.com/richard.bonajos.12" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/30px-Facebook_Logo_%282019%29.png" alt="Facebook Logo">
+            <span href="https://www.facebook.com/richard.bonajos.12">Richard Bonajos</span>
+            <!-- Instagram link with logo -->
+            <p href="https://www.instagram.com/burdagilll/" target="_blank">
+                <img src="ss.png" alt="Instagram Logo" width="30" height="30">
+                <span href="https://www.instagram.com/burdagilll/">burdagilll </span>
+                
+            </p>
+
+            <p></p>
+            
+            <h2>FAQ</h2>
+
+       <p> 1. Why are you keep smiling?<p>
+                <p>A. Because im Happy!</p>
+
+            <p> 2. Are you a Bisaya?<p>
+                <p>A. Yeah i'm pure boholano!</p>
+                <p> 3. Were you from?<p>
+                <p>A. I'm from Caluwasan, Clarin, Bohol! </p>
+
+
+
+        </div>
+    </section>
+
+    <footer>
+        
+        
+        <p>&copy; 2024 Richard Bonajos. All rights reserved.</p>
+        <button onclick="goBack()" id="backButton" style="display:none;">Back</button>
+
+        
+    </footer>
